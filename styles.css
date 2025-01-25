@@ -18,7 +18,7 @@ body {
 
 .header-logo {
     font-size: 24px;
-    font-weight: 9000;
+    font-weight: 900;
     color: #f9faf8;
     padding: 0 120px;
 }
@@ -52,14 +52,14 @@ img {
     flex-grow: 0;
 }
 
-.hero-secondary-text {
+.secondary-text {
     font-size: 18px;
     color: #e5e7eb;
     margin: 0;
     padding: 0;
 }
 
-ul.hero-secondary-text {
+ul.secondary-text {
     display: flex;
     list-style-type: none;
     gap: 20px;
@@ -67,10 +67,10 @@ ul.hero-secondary-text {
     margin: 0 120px;
 }
 
-button {
+button.hero-signup {
     background-color: #3882f6;
     border: 0;
-    padding: 8px 33px;
+    padding: 10px 33px;
     border-radius: 10px;
     margin: 10px 0;
 }
@@ -78,8 +78,105 @@ button {
 a {
     text-decoration: none;
     color: white;
-    font-weight: bold;
+    font-weight: 500;
     font-size: 20px;
 }
 
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
 
+.information-header {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+    margin: 50px;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.box {
+    border: 4px solid #3882f6;
+    border-radius: 20px;
+    height: 150px;
+    width: 150px;
+}
+
+.subtext {
+    color: rgb(53, 52, 52);
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 150px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+    padding: 0;
+    margin: 0;
+}
+
+.quote-author {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    padding: 0;
+    margin: 0;
+    align-self: flex-end;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    margin: 140px;
+    padding: 60px;
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 15px;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.banner-heading {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+
+button.banner-signup {
+    background-color: #3882f6;
+    border: 5 solid #f9faf8;
+    border-radius: 10px;
+    margin-right: 40px;
+    padding: 0 30px;
+}
