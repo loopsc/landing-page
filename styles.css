@@ -180,3 +180,14 @@ button.banner-signup {
     margin-right: 40px;
     padding: 0 30px;
 }
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright {
+    color: #e5e7eb;
+}
